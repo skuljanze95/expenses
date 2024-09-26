@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/generate-account-history",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/recurring-transactions",
+      "schedule": "0 8 * * *"
+    }
+  ]
+}
